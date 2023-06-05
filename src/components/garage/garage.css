@@ -1,0 +1,26 @@
+.garage {
+
+    top: 50px;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    position: absolute;
+}
+
+.popup-winner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+    background-color: rgba(68, 70, 64, 0.204);
+    border: 2px solid  rgb(125, 103, 35);
+    color: goldenrod;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+

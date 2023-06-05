@@ -1,0 +1,36 @@
+.car {
+    position: relative;
+    padding-right: 200px;
+}
+
+.car__contayner {
+    position: relative;
+
+}
+
+.car::after {
+    content: '';
+    position: absolute;
+    bottom: 14px;
+    height: 2px;
+    left: 8px;
+    right: 0;
+    background: repeating-linear-gradient(300deg, transparent 0 10px, #090202 10px 20px);
+
+}
+
+.car__contayner::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    bottom: 15px;
+    background: url('../../assets/img/finish2.svg') no-repeat;
+    z-index: 10;
+}
+
+
+.race-car {
+    display: inline-block;
+}

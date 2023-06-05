@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    color: white;
+    margin: 0 25px;
+    cursor: pointer;
+    background-color: rgb(37, 37, 2);
+    border-radius: 10px;
+}
+
+.btn:enabled:active {
+    background-color: rgb(61, 61, 2);
+    scale: 1.1;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+}
+
+h1 {
+    text-transform: uppercase;
+}
